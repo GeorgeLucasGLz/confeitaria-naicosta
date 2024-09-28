@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nai Costa Confeitaria - Açaí Premium</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+
+    <div class="mask"></div>
+    <header>
+        <div class="logo-header">
+            <img src="./img/logo.jpg" alt="Logo">
+            <h2>Nai Costa Confeitaria</h2>
+        </div>
+
+        <nav>
+            <a href="#" id="nav-inicio">Início</a>
+            <a href="#" id="nav-produtos">Produtos</a>
+            <a href="#" id="nav-sobre">Sobre</a>
+            <a href="#" id="nav-carrinho">Carrinho</a>
+            <button class="btn-contact" id="contact">Contato</button>
+        </nav>
+    </header>
+    <!-- Seção de Destaque do Açaí Premium -->
+    <section class="acai-premium-banner">
+        <div class="banner-content">
+            <h1>Açaí Premium</h1>
+            <p>Experimente o sabor incomparável do nosso Açaí Premium, feito com os melhores ingredientes e preparado
+                com todo o carinho.</p>
+            <button class="cta-button">Peça Agora</button>
+        </div>
+    </section>
+
+
+    <section class="swiper-destaque">
+
+        <div class="swiper-left">
+
+            <h3>ARTISTIC CAKES & MORE</h3>
+            <h2>Indulge in sweet perfection</h2>
+            <p>At Nai Costa Confeitaria, we specialize in creating stunning artistic cakes that turn every celebration
+                into a masterpiece. Our passion for baking and creativity shines through in every detail, making your
+                events in Belo Horizonte unforgettable. In addition to our exquisite cakes, we proudly offer Premium
+                Açaí and are expanding our delightful café experience. Join us in our journey of flavor and artistry!
+            </p>
+        </div>
+
+        <div class="swiper-right">
+            <!-- Swiper -->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="./img/bolo1.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./img/bolo2.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./img/bolo3.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./img/bolo4.jpg" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./img/coxinha.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="servicos">
+
+        <div class="box-list-servicos">
+            <div class="box-list-title">
+                <h4>OUR EXQUISITE OFFERINGS</h4>
+                <h3>Cakes, açaí, and café delights</h3>
+            </div>
+            <ul class="list-servicos">
+
+                <li class="card-list">
+                    <img src="./img/destaque1.jpg" alt="">
+                    <h4>Artistic celebration cakes &#62;</h4>
+                    <p>Custom-designed cakes for your special occasions.</p>
+                </li>
+                <li class="card-list">
+                    <img src="./img/acai2.jpg" alt="">
+                    <h4>Premium açaí bowls &#62;</h4>
+                    <p>Indulge in our rich and creamy Açaí bowls.</p>
+                </li>
+                <li class="card-list">
+                    <img src="./img/local.jpg" alt="">
+                    <h4>Expanding coffee shop experience. &#62;</h4>
+                    <p>Discover a new realm of coffee delights.</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Seção de Descrição Detalhada -->
+    <!-- <section class="acai-details">
+        <h2>O Melhor Açaí Que Você Já Experimentou!</h2>
+        <p>Nosso Açaí Premium é feito com polpa 100% natural, sem adição de conservantes. Combinado com frutas frescas,
+            granola crocante e mel, é a escolha perfeita para quem busca sabor e qualidade.</p>
+        <button class="details-button">Ver Opções</button>
+    </section> -->
+
+    <!-- Seção de Depoimentos -->
+    <section class="customer-reviews">
+        <h3>O que nossos clientes dizem</h3>
+        <div class="review">
+            <p>"Simplesmente maravilhoso! O melhor açaí que já provei."</p>
+            <span>- Maria Silva</span>
+        </div>
+        <div class="review">
+            <p>"Incrivelmente delicioso e saudável. Recomendo a todos."</p>
+            <span>- João Pereira</span>
+        </div>
+    </section>
+
+    <!-- Mini Carrinho de Compras -->
+
+    <!-- Seção de Opções de Compra Personalizada -->
+    <section class="acai-customization">
+        <h2>Personalize o Seu Açaí Premium</h2>
+        <form class="customization-form">
+            <div class="form-group">
+                <label for="size">Escolha o Tamanho:</label>
+                <select id="size" name="size">
+                    <option value="300ml">300ml</option>
+                    <option value="500ml">500ml</option>
+                    <option value="700ml">700ml</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="toppings">Escolha os Complementos:</label>
+                <div class="checkbox-group">
+                    <label><input type="checkbox" name="toppings" value="granola"> Granola</label>
+                    <label><input type="checkbox" name="toppings" value="banana"> Banana</label>
+                    <label><input type="checkbox" name="toppings" value="morango"> Morango</label>
+                    <label><input type="checkbox" name="toppings" value="mel"> Mel</label>
+                </div>
+            </div>
+
+            <button type="submit" class="cta-buttonw">Adicionar
+    </section>
+
+    <section class="mini-cart">
+        <h3>Seu Carrinho</h3>
+        <ul id="cart-items">
+            <!-- Itens do carrinho serão adicionados aqui via JavaScript -->
+        </ul>
+        <p>Total: <span id="cart-total">R$ 0,00</span></p>
+        <button class="cta-button">Finalizar Compra</button>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <a href="https://www.freelings.com.br">
+            <p>© 2024 Nai Costa Confeitaria - Todos os direitos reservados</p>
+            <p>® Desenvolvido por Freelings.</p>
+        </a>
+    </footer>
+    <script>
+
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./swiper.js"></script>
+    <script src="slide.js"></script>
+</body>
+
+</html>
